@@ -1,6 +1,6 @@
-# AI-AZURE-SEARCH
+# AI-AZURE-SEARCH 🔍 
 
-### 1. Criação de Recursos no Azure:
+### 1. Criação de Recursos no Azure: 📊 
 Faça login no portal do Azure em https://portal.azure.com.
 Clique no botão "+ Criar um recurso" no painel esquerdo.
 Procure por "Azure AI Search" na caixa de pesquisa e selecione a opção correspondente.
