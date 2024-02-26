@@ -27,3 +27,23 @@ Acesse a interface de consulta do Azure AI Search para começar a pesquisar e an
 Experimente diferentes consultas e filtros para extrair insights úteis.
 Monitore o desempenho do seu projeto e otimize conforme necessário.
 Seguindo esses passos, você poderá criar e configurar um projeto de busca de dados hospitalares conectado ao Azure Blob Storage usando o Azure AI Search.
+### 5. Alimentando o banco de dados:
+
+Você pode fazer upload manual dos documentos diretamente para o Azure Blob Storage por meio do Portal do Azure.
+Navegue até o contêiner específico que está sendo usado como fonte de dados para o seu projeto.
+Clique em "Upload" e selecione os documentos que deseja adicionar à fonte de dados.
+Usando Azure Storage Explorer:
+
+O Azure Storage Explorer é uma ferramenta gráfica gratuita da Microsoft que permite visualizar e interagir com recursos de armazenamento do Azure, incluindo contêineres Blob.
+Você pode fazer o upload de documentos para o contêiner Blob diretamente usando o Azure Storage Explorer.
+Automatização com Azure Functions:
+
+Você pode criar uma função do Azure que é acionada por um gatilho, como a adição de um novo documento a um determinado local de armazenamento.
+Dentro da função, você pode escrever o código para processar o documento e alimentar os dados no Azure AI Search.
+APIs REST do Azure Blob Storage:
+
+Você pode usar as APIs REST do Azure Blob Storage para automatizar o processo de upload de documentos.
+Isso pode ser integrado em seus próprios aplicativos ou sistemas existentes para alimentar continuamente a fonte de dados.
+Usando serviços de integração de dados do Azure:
+
+O Azure oferece serviços de integração de dados, como o Azure Data Factory, que podem ser configurados para extrair dados de várias fontes, transformá-los conforme necessário e carregá-los no Azure Blob Storage de forma automatizada.
